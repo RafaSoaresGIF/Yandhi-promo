@@ -1,0 +1,145 @@
+body{   
+     background-color: #F8F4EC;
+     max-widt: 100vw;
+    }
+.section {
+    margin: 0;
+}
+.container{
+    margin-top: 10rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+ }
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+#cont1{
+    flex-direction: column;
+}
+.container img{
+    width: 500px;
+    margin: 3rem;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #218aff;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+}
+.fa-angles-down{
+    font-size: 20px;
+    color: #402B3A;
+}
+#cont2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+#cont2>h2{
+    grid-column-start: span 2;
+    font-weight:900;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 100px;
+    font-size: 5rem;
+    line-height: 0px;
+    animation: jap 5s infinite;
+}
+@keyframes jap {
+    0%{color: #D63484;}
+    40%{color:#402B3A }
+    80%{color: #FF9BD2;}
+    
+}
+#cont2>p{
+    grid-column-start: span 2;
+}
+#cont2>h3{
+    grid-column-start: span 2;
+    background-color: #218aff;
+    padding: 20px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: auto;
+    text-decoration:0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition:  1s;
+}
+#link1:hover{
+    box-shadow:#D63484 0px 0px 10px;
+
+}
+.Yandhi{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin: 0;
+    position: relative;
+    padding: 1;
+}
+.img1{
+    width: fit-content;
+    height: fit-content;
+    position:absolute;
+    right: 10%;
+    bottom:40%;
+}
+.img2{
+    position: relative;
+    right: 2.8rem;
+    bottom:14rem;
+}
+footer{margin:5rem;
+        padding: 3rem;
+    text-align: center;
+margin-bottom: 0;}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #cont2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #cont2 *{
+        display: block;
+        margin: 10px;
+        padding: 10px;
+    }
+    #cont2>h2{
+        margin: 1rem;
+        white-space: nowrap;
+    }
+    .container img{
+        width: 400px;
+        margin: 3rem;
+    }
+    .img1{
+        position: relative;
+        right: 0px;
+        
+    }
+    .img2{
+        opacity: 0;
+    }
+    .middle{
+        margin: 10rem;
+    }
+    #cont2>h3{
+        margin: 4rem;
+        margin-bottom: 0;
+    }
+    .container{
+        margin-top: 5rem;}
+    #cont2>h3{
+        height: min-content;
+        white-space: nowrap;
+        }
+}
