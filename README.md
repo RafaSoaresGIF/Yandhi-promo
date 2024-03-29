@@ -1,0 +1,1 @@
+A conceptual website designed to showcase a unique promotional concept for the anticipated 2018 album "Yandhi." Crafted primarily as an educational endeavor to deepen understanding of CSS and HTML, this site serves as a platform for visual exploration, offering a tantalizing glimpse into the potential promotional strategies that could have accompanied the album's release.
